@@ -494,6 +494,59 @@ body {
   background-color: #128c7e;
 }
 
+/* Enhancements for Small Screens (max-width: 320px) */
+@media (max-width: 320px) {
+  .headerLinks {
+    top: 58px; /* Adjusted for very small screens */
+  }
+
+  .heroSection h1 {
+    font-size: 0.8em; /* Reduced for smaller screens */
+    letter-spacing: 0.8px;
+  }
+
+  .heroText {
+    font-size: 0.7em; /* Text reduced for readability */
+  }
+
+  .logo {
+    width: 40%; /* Scaled logo size */
+  }
+
+  .call {
+    width: 50%; /* Larger buttons for touch usability */
+    margin-top: 12%;
+    font-size: 0.8em;
+  }
+
+  .testimonial-carousel {
+    padding: 5%;
+    font-size: 0.9em;
+  }
+
+  .footer-column {
+    line-height: 1.5em;
+  }
+
+  .povidetext {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .whatsapp-button {
+    font-size: 16px; /* Smaller floating button */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px; /* Adjust input sizes */
+  }
+
+  .form-section h2 {
+    font-size: 18px; /* Reduce title size */
+  }
+}
+
 @media (max-width: 784px) {
   .headerLinks {
     display: none;
@@ -548,7 +601,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .headerLinks {
     top: 68px;
   }
@@ -568,8 +621,7 @@ body {
     font-size: 0.9em;
   }
   .logo {
-    width: 30%;
-    border: 1px solid;
+    width: 20%;
   }
 
   .myLogo img {
@@ -580,7 +632,7 @@ body {
   }
 
   .heroSection img {
-    width: 70%;
+    width: 50%;
   }
 
   .povidetext {
@@ -659,8 +711,7 @@ body {
   .footer-column p {
     font-size: 1.1em;
   }
-  .why-choose-us {
-    display: flex;
-    flex-direction: column;
+  .myContainer {
+    display: block;
   }
 }
