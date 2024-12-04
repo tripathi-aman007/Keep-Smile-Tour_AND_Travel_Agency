@@ -548,7 +548,7 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .headerLinks {
     top: 68px;
   }
@@ -659,7 +659,8 @@ body {
   .footer-column p {
     font-size: 1.1em;
   }
-  .header {
-    height: 10%;
+  .why-choose-us {
+    display: flex;
+    flex-direction: column;
   }
 }
