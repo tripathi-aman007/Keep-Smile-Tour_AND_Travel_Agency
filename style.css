@@ -603,7 +603,7 @@ body {
 
 @media (max-width: 550px) {
   .headerLinks {
-    top: 68px;
+    top: 114px;
   }
   .heroSection h1 {
     margin: 0px;
@@ -713,5 +713,15 @@ body {
   }
   .myContainer {
     display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerLinks {
+    width: 76%;
+    font-size: 0.9em;
+  }
+  .heroSection h1 {
+    font-size: 2em;
   }
 }
