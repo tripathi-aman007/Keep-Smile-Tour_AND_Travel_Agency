@@ -573,7 +573,7 @@ body {
   
   .myLogo img {
     border-radius: 50%;
-    width: 100%;
+    width: 20%;
     height: max-content;
     mix-blend-mode: multiply;
   }
