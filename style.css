@@ -659,4 +659,7 @@ body {
   .footer-column p {
     font-size: 1.1em;
   }
+  .header {
+    height: 10%;
+  }
 }
