@@ -137,3 +137,18 @@ body {
 }
 
 @media (max-width: 320px) {}
+
+@media (min-width: 1024px) {
+ .leftContent .visa {
+    font-size: 2.2em;
+  }
+  .heading {
+    font-size: 1.6em;
+  }
+  .location li {
+    font-size: 0.8em;
+  }
+  .leftContent h2 {
+    font-size: 2.4em;
+  }
+}
