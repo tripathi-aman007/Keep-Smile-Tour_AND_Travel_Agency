@@ -547,7 +547,7 @@ body {
   }
 }
 
-@media (max-width: 784px) {
+@media screen and (min-width: 760px) and (max-width: 1020px) {
   .headerLinks {
     display: none;
     width: 100%;
@@ -603,7 +603,34 @@ body {
 
 @media (max-width: 550px) {
   .headerLinks {
-    top: 114px;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 98px;
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    height: 100vh;
+  }
+  .headerLinks.active {
+    display: flex;
+  }
+  .headerLinks a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .dropdown {
+    margin: 0 auto;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .headerLinks {
+    top: 68px;
   }
   .heroSection h1 {
     margin: 0px;
@@ -695,6 +722,9 @@ body {
     border-top: 2px solid;
     border-bottom: 2px solid;
   }
+  .parent {
+    display: block;
+  }
   .footer {
     margin: 0;
     padding: 10px;
@@ -723,5 +753,11 @@ body {
   }
   .heroSection h1 {
     font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .headerLinks {
+    top: 80px;
   }
 }
